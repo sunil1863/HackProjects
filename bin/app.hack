@@ -1,7 +1,9 @@
 <<__EntryPoint>>
 async function main(): Awaitable<void>{
     //str1 = __DIR__.'/../vendor/auotload.hack';
-    printf("%s\n", __DIR__.'/../vendor/auotload.hack');
+    //printf("%s\n", __DIR__.'/../vendor/auotload.hack');
+
+    printf("hello from real project with composer, tests, linting, git, travisCI.");
 
     //require_once(__DIR__.'/../vendor/auotload.hack');
     require_once('/home/sunil/Documents/HackRD/VecProject/vendor/autoload.hack');
